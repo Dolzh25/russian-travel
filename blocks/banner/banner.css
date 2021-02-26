@@ -1,0 +1,23 @@
+.banner {
+  position: relative;
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 68px;
+  background-image: url('../../images/cover-trains.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1023px) {
+  .banner {
+    margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner {
+    margin-bottom: 40px;
+  }
+}

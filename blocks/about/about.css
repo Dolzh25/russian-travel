@@ -1,0 +1,11 @@
+.about {
+  padding-top: 98px;
+  padding-bottom: 92px;
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}

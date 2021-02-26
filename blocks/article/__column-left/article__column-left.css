@@ -1,0 +1,12 @@
+.article__column-left {
+  width: 46.74%;
+  max-width: 460px;
+}
+
+@media (max-width: 767px) {
+  .article__column-left {
+    width: 100%;
+    max-width: none;
+    margin-bottom: 32px;
+  }
+}

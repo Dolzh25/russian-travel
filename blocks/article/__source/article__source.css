@@ -1,0 +1,9 @@
+.article__source {
+  display: block;
+  margin-bottom: 12px;
+  color: #aaaaaa;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}

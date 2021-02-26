@@ -1,0 +1,24 @@
+.languages__link {
+  color: #ffffff;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.languages__link:hover,
+.languages__link:focus {
+  opacity: 0.8;
+}
+
+.languages__link:active {
+  opacity: 0.5;
+}
+
+
+@media (max-width: 460px) {
+  .languages__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

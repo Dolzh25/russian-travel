@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .article__content-container {
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}
