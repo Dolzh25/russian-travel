@@ -1,9 +1,13 @@
 .article__source {
-  display: block;
-  margin-bottom: 12px;
-  color: #aaaaaa;
-  font-size: 12px;
-  line-height: 1.7;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+@media (max-width: 767px) {
+  .article__source {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }

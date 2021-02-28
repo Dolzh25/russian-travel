@@ -1,9 +1,6 @@
-.article__content {
-  display: flex;
-}
-
 @media (max-width: 767px) {
   .article__content {
-    flex-direction: column;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
