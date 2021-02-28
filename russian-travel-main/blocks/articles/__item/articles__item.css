@@ -1,0 +1,19 @@
+.articles__item {
+  margin-bottom: 80px;
+}
+
+.articles__item:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1023px) {
+  .articles__item {
+    margin-bottom: 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .articles__item {
+    margin-bottom: 50px;
+  }
+}

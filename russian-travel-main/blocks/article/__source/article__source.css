@@ -1,0 +1,13 @@
+.article__source {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+@media (max-width: 767px) {
+  .article__source {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
